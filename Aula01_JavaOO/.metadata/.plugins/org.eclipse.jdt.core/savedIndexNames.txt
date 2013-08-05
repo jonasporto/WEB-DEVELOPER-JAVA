@@ -1,0 +1,15 @@
+INDEX VERSION 1.126+/home/jonasporto/Documentos/java_estudo/Coti Informatica/Aula01_JavaOO/.metadata/.plugins/org.eclipse.jdt.core
+2911564110.index
+3402045506.index
+972066989.index
+3248950224.index
+3961687981.index
+1112466127.index
+3699290534.index
+2504925612.index
+113772078.index
+3015497452.index
+2916827757.index
+519502148.index
+1221880260.index
+1135268337.index
