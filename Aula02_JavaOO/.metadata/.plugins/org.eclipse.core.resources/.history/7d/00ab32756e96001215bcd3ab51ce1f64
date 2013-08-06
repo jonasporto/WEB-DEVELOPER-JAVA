@@ -1,0 +1,15 @@
+package execucao;
+
+import entity.Cliente;
+
+public class MainProjeto {
+
+	public static void main(String[] args) {
+		Cliente c = new Cliente();
+		
+		c.setNome("Wallace");
+		c.setEmail("prof.wallace@gmail.com");
+		c.setSexo("masculino");
+	}
+	
+}

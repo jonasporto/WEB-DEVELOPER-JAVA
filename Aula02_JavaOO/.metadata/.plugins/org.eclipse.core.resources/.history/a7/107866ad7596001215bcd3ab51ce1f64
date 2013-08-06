@@ -1,0 +1,13 @@
+package txtutil;
+
+import java.io.PrintWriter;
+
+public class ManipularArquivo {
+
+	PrintWriter pw;
+	
+	public void abrirArquivo() {
+
+		pw = new PrintWriter();
+	}
+}

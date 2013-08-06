@@ -1,0 +1,17 @@
+package heranca;
+
+public class ClienteEspecial extends Correntista {
+
+	private Double limite;
+
+	
+	public Double getLimite() {
+		return limite;
+	}
+
+	public void setLimite(Double saldo) {
+		this.limite = saldo * 0.5;
+	}
+
+	
+}

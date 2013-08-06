@@ -1,0 +1,15 @@
+package input;
+
+import java.util.Scanner;
+
+public class InputCliente {
+
+	public String lerNome(){
+		System.out.println("Digite o nome: ");
+		Scanner ler = new Scanner(System.in);
+		return ler.nextLine();
+		
+		
+	}
+	
+}

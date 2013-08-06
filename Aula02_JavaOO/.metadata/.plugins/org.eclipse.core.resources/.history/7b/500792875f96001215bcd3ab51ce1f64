@@ -1,0 +1,23 @@
+package heranca;
+
+public class ClienteEspecial extends Correntista {
+
+	private Double limite;
+
+	
+	
+	public ClienteEspecial(Integer conta, String nome, Double saldo,
+			Double limite) {
+		super(conta, nome, saldo);
+		this.limite = limite;
+	}
+
+	public Double getLimite() {
+		return limite;
+	}
+
+	public void setLimite(Double saldo) {
+		this.limite = saldo * 0.5;
+	}
+
+}

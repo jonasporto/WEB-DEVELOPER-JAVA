@@ -1,0 +1,34 @@
+package execucao;
+
+import javax.swing.JOptionPane;
+
+import heranca.ClienteEspecial;
+import heranca.Correntista;
+
+public class MainHeranca {
+
+	public static void main(String[] args) {
+		
+		Correntista c = new Correntista(1001,"Wallace",2000.);
+		ClienteEspecial ce = new ClienteEspecial();
+		
+		ce.setConta(1002);
+		ce.setNome("Leo");
+		ce.setSaldo(15000.);
+		
+		ce.setLimite(ce.getSaldo());
+		
+		JOptionPane.showInputDialog("Digite uma messagem");
+		System.out.println("Nome: " + c.getNome());
+		System.out.println("Saldo: " + c.getSaldo());
+		
+		System.out.println("\n Nome: " + ce.getNome());
+		System.out.println("Saldo: " + ce.getSaldo());
+		System.out.println("Limite: " + ce.getLimite());
+	
+		
+	
+	
+	}
+	
+}
